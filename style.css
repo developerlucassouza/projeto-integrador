@@ -60,6 +60,8 @@ header h1{
 
 header nav {
     padding: 10px;
+    display: block;
+    margin: auto;
 }
 
 header a {
@@ -92,6 +94,7 @@ main {
     padding: 10px;
 
     min-height: 500px;
+    width: 90%;
     max-width: 800px;
 
     border-radius: 10px;
