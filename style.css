@@ -32,6 +32,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: vmLTech;
+}
+
 p {
     font-family: paragrafo;
     font-size: large;
