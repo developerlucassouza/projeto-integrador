@@ -50,10 +50,6 @@ a {
     font-size: large;
 }
 
-img {
-    padding: 10px;
-}
-
 /*========== header =================================================================*/
 
 header {
@@ -109,4 +105,8 @@ main {
     background-color: white;
 
     color: black;
+}
+
+main img {
+    padding: 10px;
 }
