@@ -87,7 +87,7 @@ header span {
 header span:hover {
     transition-duration: 0.5s;
 
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: var(--vermelho);
 }
 
@@ -105,7 +105,7 @@ main {
 
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.500);
-    background-color: white;
+    background-color: rgb(0, 200, 200);
 
     color: black;
 }
