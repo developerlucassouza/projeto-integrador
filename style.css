@@ -42,6 +42,7 @@ p {
     font-size: large;
     padding: 20px;
     padding-top: 0;
+    padding-bottom: 0;
     text-align: justify;
     text-indent: 10%;
     line-height: 25px;
@@ -96,10 +97,11 @@ main {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-bottom: 20px;
 
-    min-height: 500px;
+    /*min-height: 500px;*/
     width: 85%;
-    max-width: 800px;
+    max-width: 1000px;
 
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.500);
@@ -110,6 +112,11 @@ main {
 
 main img {
     padding: 10px;
+}
+
+main p {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 main h1, h2{
