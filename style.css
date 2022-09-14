@@ -65,6 +65,13 @@ header {
     background-image: linear-gradient(var(--vermelho), var(--vermelho-escuro));
 }
 
+header img {
+    display: block;
+    margin: auto;
+    width: 2000px;
+    max-width: 400px;
+}
+
 header h1{
     color: var(--branco);
     margin-top: 0%;
@@ -78,11 +85,11 @@ header nav {
 
 header a {
     font-weight: bolder;
-    color:rgb(60, 60, 60);
+    color:var(--branco);
     text-decoration: none;
 }
 
-header span {
+header span.nav {
     display: inline-block;
     padding: 10px;
     text-align: center;
@@ -91,7 +98,7 @@ header span {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header span:hover {
+header span.nav:hover {
     transition-duration: 0.5s;
 
     border-radius: 15px;
