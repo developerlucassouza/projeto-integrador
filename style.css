@@ -80,7 +80,7 @@ div.mvv h1 {
 div.mvv p {
     padding: 0%;
     margin: 0%;
-    text-align: justify;
+    text-align: left;
 }
 
 /*========== header =================================================================*/
