@@ -83,6 +83,12 @@ div.mvv p {
     text-align: left;
 }
 
+a.prox {
+    color: var(--azul-claro);
+    text-align: center;
+    margin
+}
+
 /*========== header =================================================================*/
 
 header {
@@ -143,7 +149,8 @@ main {
 
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.500);
-    background-color: rgb(0, 200, 200);
+    /*background-color: rgb(0, 200, 200);*/
+    background-color: var(--branco);
 
     color: black;
 }
